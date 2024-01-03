@@ -17,3 +17,19 @@ Navigate to the project directory and install the required dependencies using th
 
 ```bash
 pip install -r requirements.txt
+
+Now open the folder with VsCode
+
+Switch to the path of that folder " Like : - cd "D:\django project\employee_management "
+
+Now Bash '''
+>> python manage.py makemigrations
+>> python manage.py migrate
+
+>> python manage.py runserver --insecure  
+
+then links will be :- for dashboard  http://127.0.0.1:8000/
+for add employee  http://127.0.0.1:8000/employee/add
+for remove employee  http://127.0.0.1:8000/employee/remove
+for view employee  http://127.0.0.1:8000/employee/view
+ 
