@@ -16,9 +16,12 @@ Follow these steps to set up and run the project locally.
 Navigate to the project directory and install the required dependencies using the following command:
 
 ```bash
+
 pip install -r requirements.txt
 
-Now open the folder with VsCode
+- Now go to the downloaded folder
+
+- Now open the folder with VsCode
 
 Switch to the path of that folder " Like : - cd "D:\django project\employee_management "
 
